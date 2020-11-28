@@ -17,6 +17,8 @@ const generateBadges = licenseBadge => {
     case 'Mozilla':
       result = `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`;
       break;
+
+    default: '';
   }
 
   return result
@@ -42,7 +44,8 @@ const generateMarkdown = mData => {
   - [About](#about)
 
   ## Installation
-
+  ${mData.installation}  
+  
   ## Usage
   ${mData.description}
 
@@ -57,13 +60,13 @@ const generateMarkdown = mData => {
   ## Tests
 
   ## Questions
-  ${mData.name}
+  If you have any questions, feel free to reach out to me at my email!   
   ${mData.email}
 
-  ## About the Author
-  ${mData.about}
-  ${mData.github}
-  ${mData.}
+  ## About 
+  ${mData.about}  
+  ${mData.github}  
+  ${mData.email}  
 
   NOTE: This section should contain your GitHub username with a link to your GitHub profile. In addition, this section of the README should include the entered email with instructions on how to reach out.
 

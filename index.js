@@ -35,7 +35,7 @@ const questions = () => {
 					return false;
 				}
 			}
-		}
+		},
 		{
 			type: 'input',
 			name: 'email',
@@ -121,6 +121,11 @@ const questions = () => {
 			}
 		},
 		{
+			type: 'input',
+			name: 'installation',
+			message: 'Describe the intallation process of your project:'
+		},
+		{
 			type: 'checkbox',
 			name: 'languages',
 			message: 'What languages were used to create this project?',
@@ -139,14 +144,6 @@ const questions = () => {
 			name: 'licenses',
 			message: 'Are there any licenses associated with this project?',
 			choices: ['MIT', 'Eclipse', 'GNU', 'IBM', 'Mozilla'],
-			validate: licensesInput => {
-				if (licensesInput) {
-					return true;
-				} else {
-					console.log('Please select a license for your project...');
-					return false;
-				}
-			}
 		},
 		{
 			type: 'input',
