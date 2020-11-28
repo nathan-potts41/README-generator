@@ -25,6 +25,19 @@ const questions = () => {
 		},
 		{
 			type: 'input',
+			name: 'github',
+			message: 'What is your GitHub username? (Required)',
+			validate: gitHubInput => {
+				if (gitHubInput) {
+					return true;
+				} else {
+					console.log('Please enter your GitHub username!');
+					return false;
+				}
+			}
+		}
+		{
+			type: 'input',
 			name: 'email',
 			message: 'What is your email address? (Required)',
 			validate: emailInput => {
@@ -109,6 +122,20 @@ const questions = () => {
 		},
 		{
 			type: 'checkbox',
+			name: 'languages',
+			message: 'What languages were used to create this project?',
+			choices: ['HTML', 'CSS', 'Javascript', 'Node.js', 'jQuery'],
+			validate: languagesInput => {
+				if (languagesInput) {
+					return true;
+				} else {
+					console.log('Please all languages that apply!');
+					return false;
+				}
+			}
+		},
+		{
+			type: 'list',
 			name: 'licenses',
 			message: 'Are there any licenses associated with this project?',
 			choices: ['MIT', 'Eclipse', 'GNU', 'IBM', 'Mozilla'],
@@ -120,21 +147,31 @@ const questions = () => {
 					return false;
 				}
 			}
+		},
+		{
+			type: 'input',
+			name: 'contributers',
+			message: 'List any contributers to this project:'
 		}
 	]);
 };
 
 
-questions().then(data => {
-	// const pageMD = generateMarkdown(mData);
+questions()
+	.then(generateMarkdown)
+	.then(data => {
+		// const pageMD = generateMarkdown(mData);
 
-	fs.writeFile('./g-readme.md', data, err => {
-		if (err) throw new Error(err);
+		fs.writeFile('./g-readme.md', data, err => {
+			if (err) throw new Error(err);
+		});
+		console.log(
+			'Your README is complete! Check it out g-readme.md to see the output!'
+		);
 	});
-	console.log(
-		'Your README is complete! Check it out g-readme.md to see the output!'
-	);
-});
+
+
+
 
 // const mData = {
 // 	name: 'Nathan',

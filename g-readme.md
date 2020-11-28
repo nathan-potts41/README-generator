@@ -1,15 +1,12 @@
-# README Generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-    
+# GITITUP undefined
   
   ## Description
-  Here is where the description of the project will go. It should be as descriptive as can possibly be.
+  THis project contains a description of how things wrok
 
   ## Deployed
-  https://github.com/nathan-potts41
+  LINK
 
-  The above should include 
-
-  ###Table of Contents
+  ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
@@ -22,10 +19,8 @@
 
   ## Installation
 
-  "If a prospective employer wanted to download and test the readme generator, they'd first clone the repo, then run the command 'npm install' to download the application's dependencies into the node_modules folder. For this reason, we never upload the node_modules folder into GitHub"
-
   ## Usage
-  Here is where the description of the project will go. It should be as descriptive as can possibly be.
+  THis project contains a description of how things wrok
 
   NOTE: I have no idea what goes here yet...
 
@@ -42,11 +37,11 @@
   ## Tests
 
   ## Questions
-  Nathan
-  nathan.potts41@gmail.com
+  Nathan P
+  pottsandpasn41@hotmail.com
 
   ## About the Author
-  Please feel free to call me Nathan. To share a little about who I am, I will start with my professional life. As a motivated and goal oriented individual I embrace challenges; strive to help others learn and develop; work collaboratively with teams; push myself to further develop my current skill set and expect to succeed. On a more personal note, I am also a husband to an incredible wife and fur-father to an amazing pup. I enjoy days spent on the golf course and continually learning new things.
+  undefined
 
   NOTE: This section should contain your GitHub username with a link to your GitHub profile. In addition, this section of the README should include the entered email with instructions on how to reach out.
 
