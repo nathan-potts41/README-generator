@@ -54,13 +54,12 @@ const generateMarkdown = mData => {
   ## License
   ${mData.licenses}
 
-  NOTE: The licenses for the application need to be selected from a list of options with a badge that is added near the top of the README. In addition, there needs to be a notice added to this section of the README that explains which license the application is covered under.
-
   ## Contributing
   ${mData.contributers}
 
   ## Tests
-    ${mData.testing}  
+  ${mData.testing}  
+
   ## Questions
   If you have any questions, feel free to reach out to me at my email!   
   Email: ${mData.email}  

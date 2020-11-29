@@ -123,7 +123,7 @@ const questions = () => {
 		{
 			type: 'input',
 			name: 'installation',
-			message: 'Add an example of any test used on this project:'
+			message: 'Describe how to install this project:'
 		},
 		{
 			type: 'checkbox',
@@ -148,7 +148,7 @@ const questions = () => {
 		{
 			type: 'input',
 			name: 'testing',
-			message: 'Describe any testing that has been done on this project.'
+			message: 'Add an example of any test used on this project:'
 		},
 		{
 			type: 'input',

@@ -1,10 +1,10 @@
-# asdf [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Run-buddy [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Description
-  df
+  Here is the section where you would talk about what your product is and how to use this project.
 
   ## Deployed
-  fas
+  http://github.com/run-buddy
 
   ## Table of Contents
   - [Installation](#installation)
@@ -16,34 +16,28 @@
   - [About](#about)
 
   ## Installation
-    
+  Desciption of how to install it  
 
   ## Usage
-  df
+  Here is the section where you would talk about what your product is and how to use this project.
 
   ## License
   MIT
 
-  NOTE: The licenses for the application need to be selected from a list of options with a badge that is added near the top of the README. In addition, there needs to be a notice added to this section of the README that explains which license the application is covered under.
-
   ## Contributing
-  
+  Jake nystrom
 
   ## Tests
-      
+  Add example of how you tested this project  
+
   ## Questions
   If you have any questions, feel free to reach out to me at my email!   
-  Email: asdf  
-  GitHub: http://www.github.com/fdsa
-
-  
+  Email: pottsandpans41@hotmail.com  
+  GitHub: http://www.github.com/nathan-potts41
 
   ## About 
 
-
-  
-
-    
-
-  NOTE: This section should contain your GitHub username with a link to your GitHub profile. In addition, this section of the README should include the entered email with instructions on how to reach out.
+  Here is where you would enter information about yourself.  
+  nathan-potts41  
+  pottsandpans41@hotmail.com  
 
