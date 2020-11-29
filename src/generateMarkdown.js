@@ -1,3 +1,4 @@
+// function to generate a license badge at the top of the page
 const generateBadges = licenseBadge => {
   let result = '';
 
@@ -24,6 +25,7 @@ const generateBadges = licenseBadge => {
   return result
 };
 
+
 // function to generate markdown for README
 const generateMarkdown = mData => {
   return `# ${mData.title} ${generateBadges(mData.licenses)}
@@ -45,7 +47,7 @@ const generateMarkdown = mData => {
 
   ## Installation
   ${mData.installation}  
-  
+
   ## Usage
   ${mData.description}
 
@@ -58,19 +60,20 @@ const generateMarkdown = mData => {
   ${mData.contributers}
 
   ## Tests
-
+    ${mData.testing}  
   ## Questions
   If you have any questions, feel free to reach out to me at my email!   
-  ${mData.email}
+  Email: ${mData.email}  
+  GitHub: http://www.github.com/${mData.github}
 
   ## About 
+
   ${mData.about}  
   ${mData.github}  
   ${mData.email}  
 
-  NOTE: This section should contain your GitHub username with a link to your GitHub profile. In addition, this section of the README should include the entered email with instructions on how to reach out.
-
 `;
 };
 
+// enables this file to be required into another file
 module.exports = generateMarkdown;

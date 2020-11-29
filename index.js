@@ -123,7 +123,7 @@ const questions = () => {
 		{
 			type: 'input',
 			name: 'installation',
-			message: 'Describe the intallation process of your project:'
+			message: 'Add an example of any test used on this project:'
 		},
 		{
 			type: 'checkbox',
@@ -147,6 +147,11 @@ const questions = () => {
 		},
 		{
 			type: 'input',
+			name: 'testing',
+			message: 'Describe any testing that has been done on this project.'
+		},
+		{
+			type: 'input',
 			name: 'contributers',
 			message: 'List any contributers to this project:'
 		}
@@ -157,8 +162,6 @@ const questions = () => {
 questions()
 	.then(generateMarkdown)
 	.then(data => {
-		// const pageMD = generateMarkdown(mData);
-
 		fs.writeFile('./g-readme.md', data, err => {
 			if (err) throw new Error(err);
 		});
@@ -167,21 +170,3 @@ questions()
 		);
 	});
 
-
-
-
-// const mData = {
-// 	name: 'Nathan',
-// 	email: 'nathan.potts41@gmail.com',
-// 	github: 'nathan-potts41',
-// 	title: 'README Generator',
-// 	description:
-// 		'Here is where the description of the project will go. It should be as descriptive as can possibly be.',
-// 	confirmAbout: true,
-// 	about:
-// 		'Please feel free to call me Nathan. To share a little about who I am, I will start with my professional life. As a motivated and goal oriented individual I embrace challenges; strive to help others learn and develop; work collaboratively with teams; push myself to further develop my current skill set and expect to succeed. On a more personal note, I am also a husband to an incredible wife and fur-father to an amazing pup. I enjoy days spent on the golf course and continually learning new things.',
-// 	languages: ['HTML', 'CSS'],
-// 	repository: 'https://github.com/nathan-potts41',
-// 	website: 'https://github.com/nathan-potts41',
-// 	licenses: ['MIT']
-// };
