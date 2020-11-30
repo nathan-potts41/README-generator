@@ -1,5 +1,6 @@
-# Readme Generator 
+# Readme Generator
   
+  Video link on how to access and use this repo:https://drive.google.com/file/d/1E6FJbxafNTD4zcqU4bvMVLbEB6doRA_C/view
   ## Description
   Readme Generator is a simple yet extremely powerful tool. Its purpose is to create a professional looking readme file by using a planned out template where the user decides what goes into the input. Prompts appear in the terminal asking the user for info pertaining to each section of the Readme. 
 
